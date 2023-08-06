@@ -16,6 +16,7 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  padding: 133px 30px;
 }
 
 h1,
@@ -35,4 +36,126 @@ fieldset {
 ul,
 ol {
   list-style: none;
+}
+
+.content {
+  display: flex;
+justify-content: center;
+align-items: flex-end;
+gap: 30px;
+width: 1140px;
+height: 534px;
+}
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.result__video-container {
+  width: 711px;
+  height: 386px;
+  position: relative;
+}
+.result__video {
+  width: inherit;
+  height: inherit;
+}
+.search-form {
+  display: flex;
+  gap: 40px;
+}
+.search-form__fieldset {
+}
+.search-form__fieldset-title {
+}
+.search-form__label {
+}
+.search-form__label-text {
+}
+.visually-hidden {
+}
+.search-form__textfield {
+}
+.search-form__checkbox-list {
+}
+.search-form__checkbox {
+}
+.search-form__pseudo-checkbox {
+}
+.button {
+  border: 1px solid #FFF;
+  color: #FFF;
+  text-align: center;
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: transparent;
+}
+.search-form__submit-button {
+}
+.content__details {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 26px;
+align-self: start;
+}
+.title {
+  color: #FFF;
+font-family: Oswald;
+font-size: 75px;
+font-style: normal;
+font-weight: 700;
+line-height: 94%;
+text-transform: uppercase;
+}
+.content__accent {
+  color: #545050;
+}
+.content__list {
+overflow: scroll;
+display: flex;
+max-height: 298px;
+max-width: 399px;
+height: 100%;
+width: 100%;
+flex-direction: column;
+align-items: flex-start;
+gap: 30px;
+}
+.preloader-template {
+}
+.preloader {
+}
+.preloader-chasing-squares {
+}
+.square {
+}
+.cards-list-item-template {
+}
+.content__list-item {
+}
+.content__card-link {
+}
+.content__video-card {
+}
+.content__video-card-description-container {
+}
+.content__video-card-title {
+}
+.content__video-card-description {
+}
+.content__video-card-thumbnail {
+}
+.more-button-template {
+}
+.more-button {
+}
+.error-template {
+}
+.error {
+}
+.error__title {
 }
