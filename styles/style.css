@@ -19,7 +19,7 @@ html {
   padding: 133px 30px;
   display: flex;
   justify-content: center;
-  align-content: center;
+  flex-direction: column;
 }
 
 h1,
